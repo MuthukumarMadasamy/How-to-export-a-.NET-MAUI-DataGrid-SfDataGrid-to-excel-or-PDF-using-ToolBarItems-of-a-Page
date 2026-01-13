@@ -1,5 +1,4 @@
-﻿using SfDataGridSample.Services;
-using Syncfusion.Maui.DataGrid;
+﻿using Syncfusion.Maui.DataGrid;
 using Syncfusion.Maui.DataGrid.Exporting;
 using Syncfusion.Maui.DataGrid.Helper;
 using Syncfusion.Pdf.Graphics;

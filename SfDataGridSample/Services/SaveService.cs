@@ -1,12 +1,11 @@
-using System.IO;
-using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace SfDataGridSample.Services
+namespace SfDataGridSample;
+
+public partial class SaveService
 {
-    public partial class SaveService
-    {
-        
-        //Method to save document as a file and view the saved document.
-        public partial void SaveAndView(string filename, string contentType, MemoryStream stream);
-    }
+    //Method to save document as a file and view the saved document.
+    public partial void SaveAndView(string filename, string contentType, MemoryStream stream);
 }
